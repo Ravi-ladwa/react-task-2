@@ -1,0 +1,75 @@
+.App {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  .box {
+    letter-spacing: 2px;
+    background-color: #e3f2fd;
+  }
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0px;
+    overflow: hidden;
+    background-color: lightgray;
+  }
+  
+  li {
+    float: right;
+    border-right: 1px solid black;
+  }
+  
+  li a {
+    display: block;
+    color: brown;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px 20px;
+    text-decoration: none;
+  }
+  .active {
+    background-color: gray;
+    color: white;
+  }
+  li a:hover {
+    background-color: rgb(131, 141, 140);
+    color: blue;
+  }
+  
+  .card {
+    width: 100em;
+    max-width: 350px;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    background-color: blanchedalmond;
+  }
+  .card-img-top {
+    width: 40%;
+  }
+  .row {
+    align-items: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    column-gap: 20px;
+    row-gap: 20px;
+  }
+  .card-img-top1 {
+    width: 20%;
+  }
+  c {
+    font-size: 30px;
+    color:brown;
+  }
+  .layout {
+    background-color: bisque;
+  }
+  h1 {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
+  }
+  .tbl{
+    padding-left: 500px;
+  }
+input {
+  width: 400px;
+}
