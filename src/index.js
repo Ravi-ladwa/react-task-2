@@ -12,7 +12,7 @@ root.render(
   <>
     <HashRouter>
       <Routes>
-        <Route path="/react-task-2" element={<Layout />}>
+        <Route path="/" element={<Layout />}>
           <Route index element={<App />}></Route>
           <Route path="/name" element={<Name />}></Route>
           <Route path="/Detail/:id" element={<Detail />}></Route>
